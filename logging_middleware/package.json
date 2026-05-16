@@ -1,0 +1,30 @@
+{
+  "name": "logging-middleware",
+  "version": "1.0.0",
+  "description": "Reusable logging middleware for Affordmed evaluation — 22MIS0589",
+  "type": "module",
+  "main": "./dist/logger.js",
+  "types": "./dist/logger.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/logger.d.ts",
+      "default": "./dist/logger.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asilzain02/22MIS0589.git"
+  },
+  "keywords": ["logging", "middleware", "affordmed"],
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
