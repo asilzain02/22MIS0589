@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const EVAL_URL = "http://4.224.186.213/evaluation-service/logs";
-const TOKEN = process.env.AFFORDMED_TOKEN ?? "your Bearer Token";
+const TOKEN = process.env.AFFORDMED_TOKEN || "";
 
 /**
  * Sends a structured log entry to the Affordmed evaluation server.
